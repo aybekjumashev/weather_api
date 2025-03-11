@@ -17,7 +17,7 @@ Bul Hawa Rayı API Django hám Django Rest Framework járdeminde islenip shıǵ�
 1. Repozitoriydı klonlaw:
    ```bash
    git clone https://github.com/aybekjumashev/weather_api.git
-   cd weather-api
+   cd weather_api
    ```
 2. Virtual ortalıqtı jaratıw hám aktivlestiriw:
    ```bash
