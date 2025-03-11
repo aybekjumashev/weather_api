@@ -1,7 +1,7 @@
 import requests
 import time
 
-BOT_TOKEN = "5624330397:AAGFy0D1p-WpW7xymb6mc5ffS2R3SEy4yOM"
+BOT_TOKEN = ""
 API_BASE_URL = "https://weatherapi.up.railway.app/api"  
 # API_BASE_URL = "http://localhost:8000/api" 
 
