@@ -108,7 +108,8 @@ def handle_message(update):
 
             elif text.startswith('/weather'):
                 try:
-                    city = text.split()[1]
+                    city = text.split()[1:]
+                    city = ' '.join(city)
                     city = city.title()
                     weather_api_url = f"{API_BASE_URL}/weather/{city}/"
                     weather_response = requests.get(weather_api_url, headers=headers)
